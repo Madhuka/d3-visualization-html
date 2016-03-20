@@ -8,7 +8,7 @@ This repo is a demo for D3 visualization with simple html pages
 * [x] Step 4: Make this pie chart display the same data as in step 3, displaying 1 species every 5 seconds. Use D3 transitions when switching to another species.
 
 
-###Screen Shoots
+###Screen Shots
 
 Sortable table - (sortable-tabel.html)
 [logo]: https://github.com/Madhuka/d3-visualization-html/blob/master/screenshots/sortable-table.png "Sortable Table"
