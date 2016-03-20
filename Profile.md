@@ -8,8 +8,8 @@ I'm Udantha, MSc. Student at University of Moratuwa.
   - MSc in Research Student at University of Moratuwa 2013 -present
 
 ## On-line Contributed Repos
-  [https://github.com/apache/incubator-zeppelin](https://github.com/apache/incubator-zeppelin)
-  [https://github.com/wso2/jaggery](https://github.com/wso2/jaggery/graphs/contributors)
+  - [https://github.com/apache/incubator-zeppelin](https://github.com/apache/incubator-zeppelin)
+  - [https://github.com/wso2/jaggery](https://github.com/wso2/jaggery/graphs/contributors)
   
 ## Contacts
   - Blog: [http://madhukaudantha.blogspot.com/](http://madhukaudantha.blogspot.com/)
