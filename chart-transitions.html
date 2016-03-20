@@ -248,23 +248,22 @@
 
     var currentShow = 0;
 
-    function test() {
+    function switchingSpecies() {
         if (currentShow == 3) {
             currentShow = 0;
         }
-
         $("#rad" + currentShow).prop("checked", true);
         change(dataContainer[currentShow]);
         $('#chartTitle').text(type[currentShow] + ' Sepal Width');
         console.log('types[xc]');
         currentShow++;
     }
-    var refreshId = setInterval(test, 3000);
+    //switching to another species for every 5 seconds
+    var refreshId = setInterval(switchingSpecies, 5000);
 
     // Store the displayed angles in _current.
     // Then, interpolate from _current to the new angles.
     // During the transition, _current is updated in-place by d3.interpolate.
-
     function arcTween(a) {
         var i = d3.interpolate(this._current, a);
         this._current = i(0);
