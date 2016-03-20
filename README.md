@@ -11,10 +11,10 @@ This repo is a demo for D3 visualization with simple html pages
 ###Screen Shots
 
 Sortable table - (sortable-tabel.html)
-[logo]: https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/pie-chart.png"Sortable Table"
+![Sortable Table](https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/pie-chart.png)
 
 Pie chart displays sepalWidth for versicolor species - (pie-chart.html)
-[logo]: https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/pie-chart.png "Pie Chart for sepal width of versicolor"
+[Pie Chart for sepal width of versicolor]: (https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/pie-chart.png) "Pie Chart for sepal width of versicolor"
 
 Use D3 transitions for switching to another species in every 5 seconds- (chart-transitions.html)
-[logo]: https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/transitions-charts.png "Pie Chart for sepal width of versicolor"
+[Pie Chart for sepal width of versicolor]: (https://raw.githubusercontent.com/Madhuka/d3-visualization-html/master/screenshots/transitions-charts.png) "Pie Chart for sepal width of versicolor"
