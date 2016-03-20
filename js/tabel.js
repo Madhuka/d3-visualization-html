@@ -10,7 +10,7 @@ var table = d3.select("#table-location")
     tbody = table.append("tbody");
 
 
-d3.tsv("data.tsv", function(error, data) {
+d3.tsv("./data.tsv", function(error, data) {
     // this can be use ful in filter by species
     var columns = Object.keys(data[4])
         .filter(function(d) {

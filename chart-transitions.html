@@ -34,8 +34,8 @@
         font-weight: bold;
     }
 </style>
-<script src="/js/lib/d3.v3.min.js"></script>
-<script src="/js/lib/jquery.min.js"></script>
+<script src="./js/lib/d3.v3.min.js"></script>
+<script src="./js/lib/jquery.min.js"></script>
 
 <body>
 
@@ -101,7 +101,7 @@
         setosaData = [],
         versicolorData = [];
     var x1 = [];
-    d3.tsv("data.tsv", function(error, data) {
+    d3.tsv("./data.tsv", function(error, data) {
         if (error) throw error;
 
 

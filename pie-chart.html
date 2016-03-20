@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <script src="/js/lib/d3.v3.min.js"></script>
+    <script src="./js/lib/d3.v3.min.js"></script>
     <h2> Sepal Width for Versicolor </h2>
     <p> Sepal Width are group with (
         <=2.5), (>2.5 and
@@ -56,7 +56,7 @@
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
         //reading tsv fill for data
-        d3.tsv("data.tsv", function(error, data) {
+        d3.tsv("./data.tsv", function(error, data) {
             if (error) throw error;
             var count1 = 0,
                 count2 = 0,
