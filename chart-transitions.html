@@ -135,7 +135,7 @@
             for (var i = 0; i < dataArg.length; i++) {
                 model = countData(dataArg[i]);
                 if (i == dataArg.length - 1) {
-                    console.log(model);
+                    //data model is ready to go
                     return model;
 
                 }
@@ -229,7 +229,7 @@
         .append("path");
 
     path.transition()
-        .duration(400)
+        .duration(250)
         .attr("fill", function(d, i) {
             return color(d.data.range);
         })
@@ -255,7 +255,6 @@
         $("#rad" + currentShow).prop("checked", true);
         change(dataContainer[currentShow]);
         $('#chartTitle').text(type[currentShow] + ' Sepal Width');
-        console.log('types[xc]');
         currentShow++;
     }
     //switching to another species for every 5 seconds
