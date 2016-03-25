@@ -264,3 +264,68 @@ Aug 15 - Aug 23
  - Discuss future improvements
 
 ##### 	August 23: Submitting final evaluations to Google
+
+## Management of Coding Project
+
+### Deliverables
+The main deliverable for the project will be adding smooth negation with advance navigational features for DIG viewer and improve data analysis process over the multiple dimensions data set such as epigenomics experiment results in DIG Viewer. It would include above features. 
+
+ - Case Study with newly added features for DIG viewer
+ - Research on multiple dimensions visualization techniques
+ - Depth researching on D3 js library for (Expanding and collapsing user interface elements, scrolling event, Data binding to the UIs (sync UI to data model), Data modeling and filtering, Partial selection mechanism in data grid, Data reading and writing with CSV, Data and UI querying)
+ - Keep the C3G Montreal node documentation up-to-date with what I find/implement
+ - Updating  my blog with posts 
+ - Help create / edit / update markdown / bitbucket pages[3] with regard to my project
+ - Keep the my project team / mentors updated on the current status
+ - Follow good design, C3G Montreal node Coding Standards and Industrial best practices
+ - Testing and documenting all the code
+ - Collaborate and give my contribution to the community and teams in C3G Montreal node
+
+### Implementation Plan
+1.	Study the DIG Viewer codebase and use cases with epigenomics experiment results.
+2.	Study D3 js library into depth regard to navigating multi dimensions data set. 
+ - More into D3 core [7] which handling selections, transitions, data, localization, colors
+ - D3 Scales which responsible for convert between data and visual encodings 
+3.	Design a user friendly Rich GUI for data visualization, navigating and transitions
+4.	Create mockup uis and use-cases for features
+5.	Implement the features after confirming the features and the design with mentor and the community
+6.	Design the new features
+ - Expanding  and collapsing rows / columns in matrix with transitions
+ - Visible matrix rows and columns titles when scrolling vertically or horizontally
+ - When data model gets updated updating grid content
+ - Filtering function for rows and columns
+ - Partial cell content selection
+ - Row-based grouping
+ - Exporting current view of the grid to CSV files
+ - Query the dataset rather than showing the full dataset in the view
+ - Search data in matrix grid
+ - Import CSV file to grid view
+7.	Test features with use-case / sample data set
+8.	Start implementing  features and do code reviews
+9.	Write test cases for each feature that is implemented
+10.	Provide detailed and completed Documentation related to the project
+11.	Documenting newly added features for the APIs
+12.	Share my experience on blog, emails with community
+ 
+## Test
+I have completed full selection test (4/4) with two approaches simple html version and also with nodejs version (industrial pattern). Developed application codes are available online on my github repo [d3-visualization-html](https://github.com/Madhuka/d3-visualization-html) [11] and [d3-visualization-demo](https://github.com/Madhuka/d3-visualization-demo) [12] respectively. Each repo have share screen shots of achievements and readme file. 
+
+## Future Implementations
+1. Extend D3 visualization interface where can be zoom in and out.
+ - Zoom in will give more details selected cells
+2. Adding interactive to the DIG Viewer
+ - Dragging, Coloring, Cropping the grid with smooth transitions
+
+## References
+[1] http://computationalgenomics.ca/home.html
+[2] http://epigenomesportal.ca/ihec/
+[3] https://bitbucket.org/genap/digviewer
+[4] http://epigenomesportal.ca/ihec/grid.html
+[5] https://bitbucket.org/mugqic/gsoc2016/overview#markdown-header-development-of-an-html-dynamic-matrix-to-represent-datasets-with-multiple-dimensions
+[6] https://cwiki.apache.org/confluence/display/ZEPPELIN/COMDEV-119+Zeppelin+GSoC+Project%3A+add+more+D3+visualization
+[7] https://github.com/mbostock/d3/wiki/API-Reference
+[8] Pickett, Ronald M., and Georges G. Grinstein. "Iconographic displays for visualizing multidimensional data." Proceedings of the 1988 IEEE Conference on Systems, Man, and Cybernetics. Vol. 514. 1988.
+[9] Dzemyda, Gintautas, Olga Kurasova, and Julius Žilinskas. "Multidimensional data visualization." Methods and applications series: Springer optimization and its applications 75 (2013): 122.
+[10] Schroeder, Michael P., Abel Gonzalez-Perez, and Nuria Lopez-Bigas. "Visualizing multidimensional cancer genomics data." Genome Med 5.1 (2013): 
+[11] https://github.com/Madhuka/d3-visualization-html
+[12] https://github.com/Madhuka/d3-visualization-demo
