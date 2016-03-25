@@ -310,6 +310,13 @@ The main deliverable for the project will be adding smooth negation with advance
 ## Test
 I have completed full selection test (4/4) with two approaches simple html version and also with nodejs version (industrial pattern). Developed application codes are available online on my github repo [d3-visualization-html](https://github.com/Madhuka/d3-visualization-html) [11] and [d3-visualization-demo](https://github.com/Madhuka/d3-visualization-demo) [12] respectively. Each repo have share screen shots of achievements and readme file. 
 
+| Task                                                                                                                                                                | Status    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Step 1: Create an HTML document that uses D3 to display the following JSON document as a table with headers                                                         | Completed |
+| Step 2: Make that table sortable when clicking on headers                                                                                                           | Completed |
+| Step 3: Draw a pie chart displaying sepalWidth for versicolor species, falling in these categories: (<=2.5), (>2.5 and <=3), (>3 and <= 3.5), (>3.5 and <= 4), (>4) | Completed |
+| Step 4: Make this pie chart display the same data as in step 3, displaying 1 species every 5 seconds. Use D3 transitions when switching to another species          | Completed |
+
 ## Future Implementations
 1. Extend D3 visualization interface where can be zoom in and out.
  - Zoom in will give more details selected cells
