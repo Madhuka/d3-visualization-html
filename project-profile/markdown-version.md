@@ -51,4 +51,114 @@ I'm a full-time research student working on my research area big data and visual
  - Mentor link_ids: https://bitbucket.org/dbujold/
  - Have you been in touch with the mentors? Yes, From March 11 over emails (18 email thread)
 
+## Synopsis
+### Aims of the project
+Add new advance navigational features for DIG Viewer for smooth negation that leads to improved data analysis process over  multidimensional dataset such as epigenomics experiment results in DIG Viewer.
+
+### Details
+According to project markdown documentation [5] DIG view are limited with some functionalities that decline smoother navigation. Those limitations make data analysis process hard as navigation is not smoother for large multi dimensions datasets. To solve this I am introducing few components which are responsible for each feature and it will help code maintenance also. These components are reusable so those can be used in later additional features as well. Expanding collapsing UI components are used for rows and columns. Freezing title to visible matrix title while scrolling, data binding to the model so data model and grid is update, filtering function can be used for row and columns and to select partial cell in grid. There are some simple improvements such as row-based grouping brackets and exporting current view of the grid to CSV. D3 js library can be used in all the places.
+
+## Benefits to Community
+C3G makes available comprehensive sets of reference epigenomes relevant to health and disease. DIG Viewer which has been developed using D3 js library allows users to navigate on multiple dimensions, epigenomics experiment results. Human participation plays an essential role in most decisions when analyzing data. Lot of data is now multi-dimensional but there are lack of tool provide visualization an better navigation on those type of data. The proposed project involves improving the DIG Viewer visualization and functionalities which provide smoother and effective navigation in multiple dimensions.
+
+DIG viewer is used to analysis epigenomics experiment results and it makes easy and smooth navigation and it will help data analysis process. This can be used in other projects in C3G also.
+
+This also can be used to visualize multidimensional database (MDB) data and lead to get better navigational queries. In statistical engineer, scientist, researcher and econometrics also can used this to analysis their multidimensional data set [8,9]. It is extremely useful in cancer genomics projects and DIG viewer let them to make their finding easy n fast [10]. Community will get considerable befits. 
+
+## Coding Plan & Methods
+### Introduction 
+C3G makes available comprehensive sets of reference epigenomes relevant to health and disease. DIG Viewer which has been developed using D3 js library allows users to navigate on multiple dimensions, epigenomics experiment results. The proposed project involves improving the library visualization and functionalities which provide smoother and effective navigation in multiple dimensions.
+
+According to project markdown documentation [5] DIG view are limited with some functionalities that decline smoother navigation. Those limitations make data analysis process hard as navigation is not smoother for large multi dimensions datasets.
+Listed features improve the library to provide smoother navigation.
+
+#### Main required features
+
+1.	Expanding/Collapsing rows and columns in matrix with transitions
+2.	Making matrix rows and columns always visible while scrolling vertically or horizontally
+3.	Updating grid content using transitions when data model gets updated
+4.	Rows/columns display filtering based on provided function
+5.	Partial cell content selection
+
+#### Other improvements
+
+6.	Row-based grouping brackets 
+7.	Exporting current view of the grid to CSV 
+
+#### Few more Proposing features
+
+8.	Query the dataset rather than showing full dataset in  view
+9.	Search data in matrix grid
+10.	Import csv file to grid view
+
+To solve this I am introducing few components which are responsible for each feature and it will help code maintenance also. These components are reusable so those can be used in later additional features as well. 
+Below section explains all the proposed features descriptively with some design.
+
+#### Expanding and Collapsing feature rows or columns
+ - Items are grouped by categories (top level hierarchy) and it let grid present datasets in compact view.
+ - The grid does not need to display everything at all time. Depending on the user’s requirements, user can get more detailed view with rows or columns expanding feature.
+ - Example IHEC Data Portal grid doesn't display all cell type under a cell type category. The category would be expandable by clicking on the ‘+’ sign next to it if it is collapsed. A ‘-‘ sign would allow the row/column to be collapsed again.
+ - This is offered as an option by grid API.
+ - There will be Expanding All / Collapsing All function also as user can get full view of grid with one click of 'expand all' and compact view with 'collapse all'
+ - D3's transitions will used to give smooth visual transition expanding and collapsing feature.
+
+#### Making matrix rows and columns always visible when scrolling vertically or horizontally
+ - Currently in DIG viewer user needs to scroll UP or left in order to see matrix rows and columns
+ - matrix rows and columns titles are freeze when user navigating in data grid scrolling vertically or horizontally
+
+#### Updating grid content when data model gets updated
+ - Current grid does not show when data model get change.
+ - Whenever the data model has update that modification need to present in the grid accordingly with smooth D3's transitions
+ - This change should not harm the current state of DIG viewer
+
+#### Filtering function for rows and columns display 
+ - User is able to provide a filtering function which only displays the matrix rows/columns
+ - This not  harm  the data model and it is only viewing data in grid
+ - Removal and insertion of rows and columns will use D3 transitions 
  
+#### Partial cell content selection
+ - User can select or deselect cell or cells in the grid
+ - This feature presents a dataset of selected portions of the datasets represented by a cell
+ - The popup will contain a table of available datasets with a selection widget
+ - Columns in this dataset table will be provided by injected functions provided by the user of the API
+ - Table can be sortable and selecting table row  highlights the mapping cell with changing the cell color
+
+#### Other small improvements
+
+#####	Row-based grouping brackets 
+ - Rows can be grouped with bracket and once bracket is clicked all rows will get selected in that brackets
+
+#####	Exporting visible rows and columns in the grid to CSV files
+ - User can do above features such as filtering and collapse rows or columns then user export only showing grid to csv file
+ - User can select file types such as (CSV or TSV)
+ 
+#### Few more proposed features
+#####	Query the dataset rather than showing full data set in the view
+ - User can  query the data before loading the data to grid 
+ - Only interested data can be picked in initial stage but not filtered
+ 
+#####	Search data in matrix grid
+ - Grid view show only rows and columns but user need some dimensional data which is not shown in grid view (where cell is not selected)
+ - Users can search dataset and results are presented as changing the color of the cells 
+
+#####	Import csv file to grid view
+ - As the gird can export its data to csv file, the same way user can load his / her csv file to the grid
+
+Above contains all the improvements that are listed and I noticed to have in DIG viewer.
+
+### 	Goal and Objectives
+The Goal of this project is to enhance the navigational features for DIG Viewer for smooth negation that leads to improved data analysis process over multidimensional.
+
+#### 	Objectives
+ - High level study of DIG Viewer and multiple dimensions data navigation methods. 
+ - In depth knowledge on data visualization techniques and with navigational mechanism over multiple dimensions visualization.    
+ - Research more depth into D3 js feature which are needed for above features.
+ - A good design and methodology to include new features
+ - Come up with a good, user friendly UI component  for DIG viewer 
+ - Designing and Implementing the features
+ - Do Usability tests and collect feedback from other developers and the community
+ - Document the implementation details and use cases
+ - Test new features with sample epigenomics experiment results
+ - Write user documentation
+ - Extensive community interaction and gaining sufficient support from the C3G community.
+
