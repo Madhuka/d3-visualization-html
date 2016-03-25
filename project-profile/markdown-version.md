@@ -162,3 +162,105 @@ The Goal of this project is to enhance the navigational features for DIG Viewer 
  - Write user documentation
  - Extensive community interaction and gaining sufficient support from the C3G community.
 
+## 	Timeline
+
+March 26 to April 22 (Before the accepted proposals are announced) 
+ - Try out DIG View and going through the C3G and Montreal C3G nodes documentation and getting a holistic idea on the project's functionality and user cases
+ - Familiarize myself with D3 visualization into more depth and follow grid API in DIG viewer.
+ - Study multidimensional visualization, interaction and navigation mechanism into more deeply and update findings over the community and team.
+ - Learn D3 specification deeply and identify d3 features that will be used fully for project needs
+ - Read papers and resources related to multiple dimensions  data visualization techniques and analytics UI tools
+ - Go through the DIG Viewer to get hands on experience on the code base
+ - Further discuss with developers regarding the approach I'm proposing about features 
+ - Write blog posts and articles on stuff that I learn
+
+Apr 23– May 23 (Community Bonding Period)
+ - Discuss the features and use-case for each feature
+ - Discuss the Mockups – UI for proposed features and finalize the diagram
+ - Picking d3 features that is mapping in to our needs according to the feature list  
+ - Understand data model and grid of DIG viewer
+ - Discuss  on the improvements features 
+ - Discuss and finalize high level use-case for each feature
+ - Finalizing feature designs  
+ - Discuss  about the architecture of the system and select coding pattern and design patterns for implementing
+ - Have a skeleton component structure for features ready in mind and in agreement with the mentor
+
+##### 	May-23 Coding starts
+
+May 23 - June 05
+ - Start developing new  feature expanding and collapsing rows and columns in matrix
+ - Adding user interface elements for expanding and collapsing
+ - Implementing a mechanism to selecting  items to be grouped by categories 
+ - Improve the grid API
+ - Adding D3 transitions for matrix when expanding and collapsing
+
+June 06 - June 12
+ - Adding row-based grouping brackets which small improvement 
+ - Adding select function for grouping brackets
+ - Adding D3 freezing title for grid matrix
+ - Document the newly added feature
+
+June 13 - June 21
+ - Improve matrix rows and columns always visible with freezing / lock feature
+ - Adding scrolling vertically or horizontally feature for grid content
+ - Adding filtering function for rows and columns
+
+June 20 - June 26
+ - Binding the grid matrix view with filtering feature
+ - Removal / insertion of rows and columns to the grid 
+ - completing the D3 transitions for all added features
+ - Code review with the mentor
+ - Submitting details for midterm
+
+##### 	2015-June-27: Midterm evaluations
+
+June 27 – July 3
+ - Sharing status of implementation with community and getting feedbacks
+ - Improve the code depending on the feedback
+ - Data model binding to grid feature developing
+ - Adding  d3 event listener for data model update 
+
+July 4 – July 17
+ - Improving DIG Viewer display element to update with data model update event 
+ - Start developing partial cell content selection feature
+ - Update current code for new feature regard partial cell selecting
+ - Adding popup table with mapped datasets with a selection cells
+ - Improving the table for sorting and mapping to grid 
+
+July 18 – July 24
+ - Function get current visible cells data and meta data
+ - Exporting data which is in current view of the grid to CSV and TSV with D3
+ - Importing feature also implementing
+ - Overall task review and adjustments
+ - Document the development steps
+
+July 25 – July 31
+ - Adding query feature pick data from the dataset
+ - Current view data model is loaded from query result 
+ - Developing the search function in data and selecting cells 
+ - Showing  resultant cell ids with different colors
+ - Code review and gather feedback on the development efforts
+ - Writing unit tests for js functions 
+
+Aug 1 – Aug 7
+ - Improving visualization and fixing svg bugs
+ - Testing new developed features with sample data
+ - Test Case improvements and bug fixes
+ - Improve functional performance 
+ - Review test cases and improve d3 transition 
+ - Ensure compliance of my written code with Montreal C3G nodes code standards
+
+Aug 7- Aug 14
+ - Document the development steps
+ - Sample use case preparation
+ - Final Code review and improvements
+ - User documentation update
+ - Final Report preparation 
+
+##### 	Aug 15: Final week
+
+Aug 15 - Aug 23
+ - Finalize User documentation
+ - Discuss future improvements
+
+##### 	August 23: Submitting final evaluations to Google
