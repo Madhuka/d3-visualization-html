@@ -318,14 +318,25 @@ I have completed full selection test (4/4) with two approaches simple html versi
 
 ## References
 [1] http://computationalgenomics.ca/home.html
+
 [2] http://epigenomesportal.ca/ihec/
+
 [3] https://bitbucket.org/genap/digviewer
+
 [4] http://epigenomesportal.ca/ihec/grid.html
+
 [5] https://bitbucket.org/mugqic/gsoc2016/overview#markdown-header-development-of-an-html-dynamic-matrix-to-represent-datasets-with-multiple-dimensions
+
 [6] https://cwiki.apache.org/confluence/display/ZEPPELIN/COMDEV-119+Zeppelin+GSoC+Project%3A+add+more+D3+visualization
+
 [7] https://github.com/mbostock/d3/wiki/API-Reference
+
 [8] Pickett, Ronald M., and Georges G. Grinstein. "Iconographic displays for visualizing multidimensional data." Proceedings of the 1988 IEEE Conference on Systems, Man, and Cybernetics. Vol. 514. 1988.
+
 [9] Dzemyda, Gintautas, Olga Kurasova, and Julius Žilinskas. "Multidimensional data visualization." Methods and applications series: Springer optimization and its applications 75 (2013): 122.
+
 [10] Schroeder, Michael P., Abel Gonzalez-Perez, and Nuria Lopez-Bigas. "Visualizing multidimensional cancer genomics data." Genome Med 5.1 (2013): 
+
 [11] https://github.com/Madhuka/d3-visualization-html
+
 [12] https://github.com/Madhuka/d3-visualization-demo
